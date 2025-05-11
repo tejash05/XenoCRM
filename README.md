@@ -140,17 +140,29 @@ Simulates sending messages and logs delivery.
 
 Returns communication log with delivery/failure timestamps.
 
+🔄 API Endpoints
+🧠 POST /api/suggest-message
+
+Request:
+
+{ "objective": "bring back inactive users" }
+
+Response:
+Returns AI-generated message variants.
+📤 POST /api/campaign/send
+
+Simulates sending messages and logs delivery.
+📄 GET /api/campaign/logs/:campaignId
+
+Returns communication log with delivery/failure timestamps.
 ✨ Contributors
 Name	Role
 Tejash Tarun	Full Stack Dev, AI Integration, Delivery Logic
 Team	Auth System, Frontend UI/UX, MongoDB Models
-
 📎 Useful Links
 Component	Link
 🌐 Frontend	https://xeno-frontend-3qja.onrender.com
 ⚙️ Backend API	https://xeno-crm-r2jm.onrender.com
 🧠 Message Suggestion	POST /api/suggest-message
 📄 Delivery Logs	GET /api/campaign/logs/:campaignId
-
-Demo Video: https://drive.google.com/file/d/1WGbAl9j2kEBCB7TaSfinZqKPM1oaLPut/view
-
+📹 Demo Video	Watch Demo
