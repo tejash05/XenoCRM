@@ -40,6 +40,22 @@ xeno-frontEnd/
 └── vite.config.js # Vite config for dev/build
 ```
 
+
+---
+
+## 🖥️ Screenshots
+
+![Screenshot 2025-05-11 at 10.11.53 PM.png](.pic1.png)
+
+![Screenshot 2025-05-11 at 10.12.06 PM.png](./pic2.png)
+
+![Screenshot 2025-05-11 at 10.13.47 PM.png](./pic3.png)
+
+![Screenshot 2025-05-11 at 10.14.15 PM.png](./pic4.png)
+
+![Screenshot 2025-05-11 at 10.14.15 PM.png](./pic5.png)
+
+
 ---
 
 ## 🌐 Live Frontend Link
