@@ -45,15 +45,19 @@ xeno-frontEnd/
 
 ## 🖥️ Screenshots
 
-![Screenshot 2025-05-11 at 10.11.53 PM.png](.pic1.png)
+<img src="./assets/pic1.png" width="600"/>
+<br/>
 
-![Screenshot 2025-05-11 at 10.12.06 PM.png](./pic2.png)
+<img src="./assets/pic2.png" width="600"/>
+<br/>
 
-![Screenshot 2025-05-11 at 10.13.47 PM.png](./pic3.png)
+<img src="./assets/pic3.png" width="600"/>
+<br/>
 
-![Screenshot 2025-05-11 at 10.14.15 PM.png](./pic4.png)
+<img src="./assets/pic4.png" width="600"/>
+<br/>
 
-![Screenshot 2025-05-11 at 10.14.15 PM.png](./pic5.png)
+<img src="./assets/pic5.png" width="600"/>
 
 
 ---
