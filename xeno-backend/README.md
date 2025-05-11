@@ -25,7 +25,7 @@ This is the backend service for **XenoCRM**, an AI-powered mini CRM platform tha
 ---
 
 ## 📁 Folder Structure (Backend only)
-
+```
 xeno-backend/
 ├── controllers/ # Business logic (auth, campaign, AI)
 ├── models/ # Mongoose models (User, Campaign, Logs)
@@ -36,7 +36,7 @@ xeno-backend/
 ├── package.json # Backend dependencies
 └── server.js # Entry point for Express app
 
-
+```
 ---
 
 ## ⚙️ Setup Instructions
