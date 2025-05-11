@@ -1,12 +1,53 @@
-# React + Vite
+# 🎨 XenoCRM Frontend – React + Vite + Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of XenoCRM, a mini AI-powered CRM platform focused on customer segmentation, message simulation, and delivery tracking.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Why XenoCRM Frontend?
 
-## Expanding the ESLint configuration
+- ✅ Built with React + Vite for fast rendering  
+- ✅ Tailwind CSS for utility-first responsive design  
+- ✅ React Router for page navigation  
+- ✅ Google OAuth for secure login  
+- ✅ Integrates with backend APIs for campaign simulation  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack Badges
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+---
+
+## 📁 Folder Structure (Frontend only)
+```
+xeno-frontEnd/
+├── public/ # Static assets (favicon, etc.)
+├── src/ # Main source folder
+│ ├── assets/ # Images, logos, etc.
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Page components (Home, Auth, History)
+│ ├── services/ # API integration (axios logic)
+│ ├── App.jsx # Root component
+│ └── main.jsx # React DOM entry point
+├── .env # VITE_GOOGLE_CLIENT_ID
+├── package.json # Frontend dependencies
+├── tailwind.config.cjs # TailwindCSS config
+└── vite.config.js # Vite config for dev/build
+```
+
+---
+
+## 🌐 Live Frontend Link
+
+🔗 [https://xeno-frontend-3qja.onrender.com](https://xeno-frontend-3qja.onrender.com)
+
+---
+
+## 📹 Demo Video
+
+📽 [Watch Demo](https://drive.google.com/file/d/1WGbAl9j2kEBCB7TaSfinZqKPM1oaLPut/view?usp=drive_lin
