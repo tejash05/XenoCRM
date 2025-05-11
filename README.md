@@ -181,10 +181,9 @@ PATCH /api/campaigns/:id
 -GET /api/communication-logs/:campaignId
 
 ✨ Contributors
--Name	Role
--Tejash Tarun	Full Stack Dev, AI Integration, Delivery Logic
--Team	Auth System, UI/UX Design, Backend Setup
-
+Name	Role
+Tejash Tarun	Full Stack Dev, AI Integration, Delivery Logic
+Team	Auth System, UI/UX Design, Backend Setup
 
 ## 🌐 Project Links
 
