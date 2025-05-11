@@ -8,7 +8,7 @@ Built with a robust **MERN + GPT** stack, it enables efficient marketing communi
 ## 🚀 Why XenoCRM?
 
 - ✅ Real-time customer targeting by tags and filters  
-- ✅ AI-powered message suggestion using GPT-4 / LLaMA 3  
+- ✅ AI-powered message suggestion using GPT-4
 - ✅ Simulated delivery system with tracking and logs  
 - ✅ Secure login with Email & Google OAuth  
 - ✅ Detailed logs for sent, failed, and delivered messages  
@@ -24,7 +24,7 @@ Built with a robust **MERN + GPT** stack, it enables efficient marketing communi
 - Track communication logs per campaign  
 
 ### 🔹 AI Message Suggestions
-- Powered by OpenAI / Groq (LLaMA3)  
+- Powered by OpenAI 
 - Suggests 2–3 message variants per objective  
 - Intelligent tone, wordings, and personalization  
 
@@ -71,15 +71,33 @@ Built with a robust **MERN + GPT** stack, it enables efficient marketing communi
 ## 📁 Folder Structure
 ```
 XenoCRM/
-├── client/ # 🎨 React + Tailwind frontend
-│ └── pages/ # Campaigns, Login, Signup, Dashboard
-├── server/ # ⚙️ Node + Express backend
-│ ├── routes/ # Auth, Campaign, AI Suggestion APIs
-│ ├── models/ # MongoDB models: User, Campaign, Log
-│ ├── controllers/ # Logic for auth, delivery simulation
-│ └── utils/ # GPT prompt generation, logging helpers
-├── .env.example # 🔐 Sample environment variables
-├── README.md # 📘 Project documentation
+├── xeno-backend/                     # ⚙️ Backend - Node.js + Express
+│   ├── controllers/                 # Business logic (auth, campaign, AI)
+│   ├── models/                      # Mongoose models (User, Campaign, Logs)
+│   ├── routes/                      # API route definitions
+│   ├── scripts/                     # Utility scripts (if any)
+│   ├── utils/                       # Helpers like prompt generators, logger
+│   ├── .env                         # Environment config (MONGO_URI, JWT, etc.)
+│   ├── package.json                 # Backend dependencies
+│   └── server.js                    # Entry point for Express app
+
+├── xeno-frontEnd/                   # 🎨 Frontend - React + Vite + Tailwind
+│   ├── public/                      # Static assets (favicon, etc.)
+│   ├── src/                         # Main source folder
+│   │   ├── assets/                 # Images, logos, etc.
+│   │   ├── components/            # Reusable UI components
+│   │   ├── pages/                 # Page components (Home, Auth, History)
+│   │   ├── services/              # API integration (axios logic)
+│   │   ├── App.jsx                # Root component
+│   │   └── main.jsx               # React DOM entry point
+│   ├── .env                        # Frontend env (VITE_GOOGLE_CLIENT_ID)
+│   ├── package.json                # Frontend dependencies
+│   ├── tailwind.config.cjs        # TailwindCSS config
+│   └── vite.config.js             # Vite config for dev/build
+
+├── .gitignore                      # Shared git ignore file
+└── README.md                       # Project documentation
+
 ```
 
 ---
@@ -129,9 +147,9 @@ npm run dev
 🧠 POST /api/suggest-message
 
 Request:
-
+```
 { "objective": "bring back inactive users" }
-
+```
 Response: AI-generated message variants.
 📤 POST /api/campaign/send
 
@@ -141,28 +159,34 @@ Simulates sending messages and logs delivery.
 Returns communication log with delivery/failure timestamps.
 
 🔄 API Endpoints
-🧠 POST /api/suggest-message
+🧠 Message Suggestions
 
-Request:
+POST /api/ai/suggest-messages
+```
+{
+  "objective": "bring back inactive users"
+}
+```
+📤 Simulate Delivery
 
-{ "objective": "bring back inactive users" }
+PATCH /api/campaigns/:id
+```
+{
+  "status": "sent",
+  "message": "Hey, we miss you!"
+}
+```
+📄 View Logs
 
-Response:
-Returns AI-generated message variants.
-📤 POST /api/campaign/send
-
-Simulates sending messages and logs delivery.
-📄 GET /api/campaign/logs/:campaignId
-
-Returns communication log with delivery/failure timestamps.
+GET /api/communication-logs/:campaignId
 ✨ Contributors
 Name	Role
 Tejash Tarun	Full Stack Dev, AI Integration, Delivery Logic
-Team	Auth System, Frontend UI/UX, MongoDB Models
-📎 Useful Links
-Component	Link
-🌐 Frontend	https://xeno-frontend-3qja.onrender.com
-⚙️ Backend API	https://xeno-crm-r2jm.onrender.com
-🧠 Message Suggestion	POST /api/suggest-message
-📄 Delivery Logs	GET /api/campaign/logs/:campaignId
-📹 Demo Video	Watch Demo
+Team	Auth System, UI/UX Design, Backend Setup
+
+
+## 🌐 Project Links
+
+- 📹 [Demo Video](https://drive.google.com/file/d/1WGbAl9j2kEBCB7TaSfinZqKPM1oaLPut/view?usp=drive_link)  
+- 💻 [Frontend (React + Vite)](https://xeno-frontend-3qja.onrender.com)  
+- ⚙️ [Backend (Node.js + Express)](https://xeno-crm-r2jm.onrender.com)
