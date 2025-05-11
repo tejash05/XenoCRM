@@ -45,19 +45,19 @@ xeno-frontEnd/
 
 ## 🖥️ Screenshots
 
-<img src="./assets/pic1.png" width="600"/>
+<img src="./src/assets/pic1.png" width="600"/>
 <br/>
 
-<img src="./assets/pic2.png" width="600"/>
+<img src="./src/assets/pic2.png" width="600"/>
 <br/>
 
-<img src="./assets/pic3.png" width="600"/>
+<img src="./src/assets/pic3.png" width="600"/>
 <br/>
 
-<img src="./assets/pic4.png" width="600"/>
+<img src=".src/assets/pic4.png" width="600"/>
 <br/>
 
-<img src="./assets/pic5.png" width="600"/>
+<img src="./src/assets/pic5.png" width="600"/>
 
 
 ---
