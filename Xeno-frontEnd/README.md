@@ -47,18 +47,21 @@ xeno-frontEnd/
 
 <img src="./src/assets/pic1.png" width="600"/>
 <br/>
+Login/Signup Page
 
 <img src="./src/assets/pic2.png" width="600"/>
 <br/>
-
+Home Page
 <img src="./src/assets/pic3.png" width="600"/>
 <br/>
+Create Segment Page
 
-<img src=".src/assets/pic4.png" width="600"/>
+<img src="./src/assets/pic4.png" width="600"/>
 <br/>
+Campaigns
 
 <img src="./src/assets/pic5.png" width="600"/>
-
+About
 
 ---
 
